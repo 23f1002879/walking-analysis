@@ -1,11 +1,11 @@
-name: CI Workflow
-
-on: [push]
-
+name: Test Action
+on:
+  push:
+    branches:
+      - main
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 23f1002879@ds.study.iitm.ac.in
-        run: echo "Hello, world!"
+      - name: 23f2004705@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
